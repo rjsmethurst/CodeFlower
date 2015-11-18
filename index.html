@@ -133,7 +133,7 @@ $ git ls-files | xargs wc -l > symfony.wc
         currentCodeFlower = new CodeFlower("#visualization", w, h).update(json);
       };
 
-      d3.json('data.json', createCodeFlower);
+      d3.json('data/Panoptes.json', createCodeFlower);
 
       document.getElementById('project').addEventListener('change', function() {
         d3.json(this.value, createCodeFlower);
