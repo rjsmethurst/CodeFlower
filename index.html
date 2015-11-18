@@ -53,7 +53,7 @@ line.link {
         </form>
         <div id="visualization"></div>
 
-        <h2>Input data format</h2>
+<!--        <h2>Input data format</h2>
         <p>The <code>jsonData</code> format taken as input to <code>update()</code> is extremely simple. It's a JavaScript object representing a file tree structure. Each node must have a <code>name</code> (the file or directory name), leaf nodes must have a <code>size</code> (the number of lines of code or the file), and directory nodes must have a <code>children</code> property containing an array of nodes. As an example, here is the input for the currently displayed CodeFlower. You can modify it at will and click the update button to see the effect of your changes on the CodeFlower.</p>
         <form id="jsonInput">
         <fieldset>
@@ -62,8 +62,8 @@ line.link {
             <button type="submit" class="btn btn-primary btn-large">Update</button>
           </div>
         </fieldset>
-        </form>
-        <p>Once you have a loc metrics file, paste its content below and click on the convert button. This will update the CodeFlower and the JSON textarea, to let you save data for your own CodeFlowers.</p>
+        </form> -->
+        <!-- <p>Once you have a loc metrics file, paste its content below and click on the convert button. This will update the CodeFlower and the JSON textarea, to let you save data for your own CodeFlowers.</p>
         <form id="jsonConverter">
         <fieldset>
           <select name="origin">
@@ -75,9 +75,10 @@ line.link {
             <button type="submit" class="btn btn-primary btn-large">Convert</button>
           </div>
         </fieldset>
-        </form>
+        </form> -->
         <h2>Making your own CodeFlower</h2>
         <p>The best way to make your own CodeFlowers is to use <a href="http://pages.github.com/">GitHub Pages</a>, just like this very page. So just fork the <a href="https://github.com/fzaninotto/CodeFlower"><code>fzaninotto/CodeFlower</code></a> repository, add your own JSON data under the <code>data</code> directory, update the options of the dropdown list in the <code>index.html</code> file accordingly, commit the code, and push to the <code>gh-pages</code> branch. GitHub will publish the result for you.</p>
+        <br>
       </div>
     </div>
     <script type="text/javascript" src="javascripts/d3/d3.js"></script>
